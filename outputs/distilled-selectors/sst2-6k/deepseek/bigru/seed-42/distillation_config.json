@@ -1,0 +1,22 @@
+{
+  "anchor_budget": 4,
+  "architecture": "bigru",
+  "batch_size": 64,
+  "dropout": 0.1,
+  "embedding_size": 128,
+  "epochs": 8,
+  "learning_rate": 0.001,
+  "max_length": 128,
+  "max_positive_weight": 20.0,
+  "output_dir": "outputs/distilled-selectors/sst2-6k/deepseek/bigru/seed-42",
+  "patience": 3,
+  "predicted_data_dir": "data/distilled/deepseek/sst2-6k",
+  "seed": 42,
+  "selector_hidden_size": 64,
+  "teacher_name": "deepseek",
+  "test_file": "data/sst2-6k/test.ready.jsonl",
+  "tokenizer_name": "distilbert/distilbert-base-uncased",
+  "train_file": "data/sst2-6k/train.ready.jsonl",
+  "validation_file": "data/sst2-6k/validation.ready.jsonl",
+  "weight_decay": 0.01
+}

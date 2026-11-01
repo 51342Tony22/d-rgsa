@@ -1,0 +1,105 @@
+{
+  "best_global_step": 1500,
+  "best_metric": 0.8630762209036968,
+  "best_model_checkpoint": "/Users/starsfalling/Documents/AT/Distilling-Teacher-Rationales-into-Global-Anchors-for-Sparse-Text-Classification/outputs/long-text-extension/quality/imdb-6k/full/seed-123/checkpoint-1500",
+  "epoch": 5.0,
+  "eval_steps": 500,
+  "global_step": 1500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.8516666666666667,
+      "eval_loss": 0.3370346426963806,
+      "eval_macro_f1": 0.8516464741034195,
+      "eval_runtime": 1.3714,
+      "eval_samples_per_second": 437.496,
+      "eval_steps_per_second": 27.708,
+      "step": 300
+    },
+    {
+      "epoch": 1.6666666666666665,
+      "grad_norm": 4.368368625640869,
+      "learning_rate": 0.00025009999999999995,
+      "loss": 0.3807,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.845,
+      "eval_loss": 0.7074809670448303,
+      "eval_macro_f1": 0.8446854881134297,
+      "eval_runtime": 1.2386,
+      "eval_samples_per_second": 484.427,
+      "eval_steps_per_second": 30.68,
+      "step": 600
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.845,
+      "eval_loss": 1.0541943311691284,
+      "eval_macro_f1": 0.8431593001194575,
+      "eval_runtime": 1.2348,
+      "eval_samples_per_second": 485.892,
+      "eval_steps_per_second": 30.773,
+      "step": 900
+    },
+    {
+      "epoch": 3.3333333333333335,
+      "grad_norm": 0.07326662540435791,
+      "learning_rate": 0.00020009999999999998,
+      "loss": 0.0694,
+      "step": 1000
+    },
+    {
+      "epoch": 4.0,
+      "eval_accuracy": 0.86,
+      "eval_loss": 1.100917100906372,
+      "eval_macro_f1": 0.8599003735990037,
+      "eval_runtime": 1.2477,
+      "eval_samples_per_second": 480.871,
+      "eval_steps_per_second": 30.455,
+      "step": 1200
+    },
+    {
+      "epoch": 5.0,
+      "grad_norm": 8.911337499739602e-05,
+      "learning_rate": 0.0001501,
+      "loss": 0.0055,
+      "step": 1500
+    },
+    {
+      "epoch": 5.0,
+      "eval_accuracy": 0.8633333333333333,
+      "eval_loss": 1.2343268394470215,
+      "eval_macro_f1": 0.8630762209036968,
+      "eval_runtime": 1.2239,
+      "eval_samples_per_second": 490.254,
+      "eval_steps_per_second": 31.049,
+      "step": 1500
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 3000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 0.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distilled-rationale-global-anchors"
+version = "0.2.0"
+description = "Distilling teacher rationales into global anchors for sparse text classification"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "accelerate>=0.34",
+  "altair>=5.4",
+  "datasets>=2.20",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "openai>=1.66",
+  "scikit-learn>=1.4",
+  "scipy>=1.11",
+  "torch>=2.2",
+  "transformers>=4.45,<5",
+  "vl-convert-python>=1.7",
+]
+
+[project.optional-dependencies]
+local-teacher = ["sentencepiece>=0.2"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+rgsa-annotate = "rgsa.annotate:main"
+rgsa-annotate-concurrent = "rgsa.annotate_concurrent:main"
+rgsa-audit = "rgsa.audit:main"
+rgsa-ablation-summary = "rgsa.ablation_summary:main"
+rgsa-aggregate-figures = "rgsa.aggregate_figures:main"
+rgsa-altair-figures = "rgsa.altair_figures:main"
+rgsa-batch = "rgsa.batch:main"
+rgsa-distill-anchors = "rgsa.distill:main"
+rgsa-distilled-figures = "rgsa.distilled_figures:main"
+rgsa-compare-teachers = "rgsa.teacher_compare:main"
+rgsa-prepare-agnews = "rgsa.prepare_agnews:main"
+rgsa-prepare-imdb = "rgsa.prepare_imdb:main"
+rgsa-prepare-sst2 = "rgsa.prepare:main"
+rgsa-prepare-trec = "rgsa.prepare_trec:main"
+rgsa-benchmark-cost = "rgsa.benchmark_cost:main"
+rgsa-benchmark-real-data = "rgsa.benchmark_real_data:main"
+rgsa-extension-figures = "rgsa.extension_figures:main"
+rgsa-extension-summary = "rgsa.extension_summary:main"
+rgsa-tfidf = "rgsa.tfidf:main"
+rgsa-train = "rgsa.train:main"
+rgsa-summarize = "rgsa.summarize:main"
+rgsa-visualize = "rgsa.visualize:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

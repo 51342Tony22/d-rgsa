@@ -1,0 +1,21 @@
+{
+  "agnews_selector_ablation_complete": true,
+  "cost_records": 25,
+  "dataset_stat_rows": 12,
+  "expected_seeds": [
+    13,
+    42,
+    87,
+    101,
+    123
+  ],
+  "imdb_quality_complete": true,
+  "imdb_selector_ablation_complete": true,
+  "paired_comparison_rows": 30,
+  "quality_runs": 120,
+  "quality_summary_rows": 24,
+  "real_input_cost_complete": true,
+  "real_input_cost_records": 8,
+  "selector_ablation_runs": 20,
+  "selector_ablation_summary_rows": 4
+}

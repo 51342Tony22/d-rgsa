@@ -1,0 +1,12 @@
+{
+  "dropout": 0.1,
+  "ffn_size": 512,
+  "hidden_size": 128,
+  "max_length": 128,
+  "num_heads": 4,
+  "num_labels": 6,
+  "num_layers": 2,
+  "pad_token_id": 0,
+  "pooling": "cls",
+  "vocab_size": 30522
+}

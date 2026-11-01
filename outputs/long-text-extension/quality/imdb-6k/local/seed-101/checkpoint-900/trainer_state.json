@@ -1,0 +1,71 @@
+{
+  "best_global_step": 900,
+  "best_metric": 0.6899448790896159,
+  "best_model_checkpoint": "/Users/starsfalling/Documents/AT/Distilling-Teacher-Rationales-into-Global-Anchors-for-Sparse-Text-Classification/outputs/long-text-extension/quality/imdb-6k/local/seed-101/checkpoint-900",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 900,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.6483333333333333,
+      "eval_loss": 0.6378456354141235,
+      "eval_macro_f1": 0.6396765627534858,
+      "eval_runtime": 1.5401,
+      "eval_samples_per_second": 389.573,
+      "eval_steps_per_second": 24.673,
+      "step": 300
+    },
+    {
+      "epoch": 1.6666666666666665,
+      "grad_norm": 4.372020721435547,
+      "learning_rate": 0.00025009999999999995,
+      "loss": 0.5912,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.69,
+      "eval_loss": 0.6587506532669067,
+      "eval_macro_f1": 0.6892230576441103,
+      "eval_runtime": 1.449,
+      "eval_samples_per_second": 414.071,
+      "eval_steps_per_second": 26.225,
+      "step": 600
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.69,
+      "eval_loss": 1.0945967435836792,
+      "eval_macro_f1": 0.6899448790896159,
+      "eval_runtime": 1.4346,
+      "eval_samples_per_second": 418.231,
+      "eval_steps_per_second": 26.488,
+      "step": 900
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 3000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 0.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

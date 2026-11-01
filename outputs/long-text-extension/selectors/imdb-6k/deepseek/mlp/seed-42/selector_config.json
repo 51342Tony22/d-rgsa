@@ -1,0 +1,9 @@
+{
+  "architecture": "mlp",
+  "dropout": 0.1,
+  "embedding_size": 128,
+  "hidden_size": 64,
+  "max_length": 512,
+  "pad_token_id": 0,
+  "vocab_size": 30522
+}

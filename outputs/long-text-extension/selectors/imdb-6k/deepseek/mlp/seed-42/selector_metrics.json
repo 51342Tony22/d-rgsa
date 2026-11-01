@@ -1,0 +1,95 @@
+{
+  "all_samples": {
+    "test": 600,
+    "train": 4798,
+    "validation": 600
+  },
+  "anchor_budget": 4,
+  "architecture": "mlp",
+  "device": "mps",
+  "history": [
+    {
+      "epoch": 1.0,
+      "train_loss": 0.5484609560171763,
+      "validation_anchor_f1": 0.19318181818181818,
+      "validation_anchor_precision": 0.19318181818181818,
+      "validation_anchor_recall": 0.19318181818181818,
+      "validation_exact_match": 0.013468013468013467,
+      "validation_mean_jaccard": 0.13551386884720215,
+      "validation_samples": 594.0
+    },
+    {
+      "epoch": 2.0,
+      "train_loss": 0.44913153529167177,
+      "validation_anchor_f1": 0.19781144781144777,
+      "validation_anchor_precision": 0.1978114478114478,
+      "validation_anchor_recall": 0.1978114478114478,
+      "validation_exact_match": 0.006734006734006734,
+      "validation_mean_jaccard": 0.13599486932820268,
+      "validation_samples": 594.0
+    },
+    {
+      "epoch": 3.0,
+      "train_loss": 0.42388437589009603,
+      "validation_anchor_f1": 0.1856060606060606,
+      "validation_anchor_precision": 0.1856060606060606,
+      "validation_anchor_recall": 0.1856060606060606,
+      "validation_exact_match": 0.003367003367003367,
+      "validation_mean_jaccard": 0.12581369248035912,
+      "validation_samples": 594.0
+    },
+    {
+      "epoch": 4.0,
+      "train_loss": 0.4070494564374288,
+      "validation_anchor_f1": 0.1856060606060606,
+      "validation_anchor_precision": 0.1856060606060606,
+      "validation_anchor_recall": 0.1856060606060606,
+      "validation_exact_match": 0.006734006734006734,
+      "validation_mean_jaccard": 0.12629469296135964,
+      "validation_samples": 594.0
+    },
+    {
+      "epoch": 5.0,
+      "train_loss": 0.39261192361513775,
+      "validation_anchor_f1": 0.19107744107744107,
+      "validation_anchor_precision": 0.19107744107744107,
+      "validation_anchor_recall": 0.19107744107744107,
+      "validation_exact_match": 0.008417508417508417,
+      "validation_mean_jaccard": 0.13055956389289725,
+      "validation_samples": 594.0
+    }
+  ],
+  "positive_class_weight": 20.0,
+  "seed": 42,
+  "teacher_name": "deepseek",
+  "test": {
+    "anchor_f1": 0.1675084175084175,
+    "anchor_precision": 0.1675084175084175,
+    "anchor_recall": 0.1675084175084175,
+    "exact_match": 0.005050505050505051,
+    "mean_jaccard": 0.11358024691358022,
+    "samples": 594.0
+  },
+  "train": {
+    "anchor_f1": 0.2466207331825593,
+    "anchor_precision": 0.24658182583087926,
+    "anchor_recall": 0.24665965281430827,
+    "exact_match": 0.012620950778291964,
+    "mean_jaccard": 0.17284692589698897,
+    "samples": 4754.0
+  },
+  "trainable_parameters": 3980929,
+  "usable_samples": {
+    "test": 594,
+    "train": 4754,
+    "validation": 594
+  },
+  "validation": {
+    "anchor_f1": 0.19781144781144777,
+    "anchor_precision": 0.1978114478114478,
+    "anchor_recall": 0.1978114478114478,
+    "exact_match": 0.006734006734006734,
+    "mean_jaccard": 0.13599486932820268,
+    "samples": 594.0
+  }
+}

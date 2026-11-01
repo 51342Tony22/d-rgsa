@@ -1,0 +1,88 @@
+{
+  "best_global_step": 1200,
+  "best_metric": 0.809313528703332,
+  "best_model_checkpoint": "/Users/starsfalling/Documents/AT/Distilling-Teacher-Rationales-into-Global-Anchors-for-Sparse-Text-Classification/outputs/long-text-extension/quality/imdb-6k/distilled/seed-123/checkpoint-1200",
+  "epoch": 4.0,
+  "eval_steps": 500,
+  "global_step": 1200,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7233333333333334,
+      "eval_loss": 0.5720125436782837,
+      "eval_macro_f1": 0.7233302592251025,
+      "eval_runtime": 1.3972,
+      "eval_samples_per_second": 429.435,
+      "eval_steps_per_second": 27.198,
+      "step": 300
+    },
+    {
+      "epoch": 1.6666666666666665,
+      "grad_norm": 4.020249843597412,
+      "learning_rate": 0.00025009999999999995,
+      "loss": 0.4998,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.7833333333333333,
+      "eval_loss": 0.7061383724212646,
+      "eval_macro_f1": 0.783138157675241,
+      "eval_runtime": 1.3068,
+      "eval_samples_per_second": 459.148,
+      "eval_steps_per_second": 29.079,
+      "step": 600
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.8033333333333333,
+      "eval_loss": 1.0708454847335815,
+      "eval_macro_f1": 0.8032983641536273,
+      "eval_runtime": 1.3057,
+      "eval_samples_per_second": 459.536,
+      "eval_steps_per_second": 29.104,
+      "step": 900
+    },
+    {
+      "epoch": 3.3333333333333335,
+      "grad_norm": 0.30929067730903625,
+      "learning_rate": 0.00020009999999999998,
+      "loss": 0.1101,
+      "step": 1000
+    },
+    {
+      "epoch": 4.0,
+      "eval_accuracy": 0.81,
+      "eval_loss": 1.6084805727005005,
+      "eval_macro_f1": 0.809313528703332,
+      "eval_runtime": 1.3098,
+      "eval_samples_per_second": 458.091,
+      "eval_steps_per_second": 29.012,
+      "step": 1200
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 3000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 0.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

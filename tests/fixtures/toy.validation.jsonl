@@ -1,0 +1,2 @@
+{"sample_id":"toy:validation:0","text":"An excellent and enjoyable film.","gold_label":"positive","teacher_label":"positive","short_rationale":"The film receives positive descriptions.","rationale_tokens":["excellent","enjoyable"],"tfidf_tokens":["excellent"],"annotation_valid":true}
+{"sample_id":"toy:validation:1","text":"A boring and awful film.","gold_label":"negative","teacher_label":"negative","short_rationale":"The film receives negative descriptions.","rationale_tokens":["boring","awful"],"tfidf_tokens":["awful"],"annotation_valid":true}

@@ -1,0 +1,125 @@
+{
+  "all_samples": {
+    "test": 599,
+    "train": 4788,
+    "validation": 598
+  },
+  "anchor_budget": 4,
+  "architecture": "bigru",
+  "device": "cpu",
+  "history": [
+    {
+      "epoch": 1.0,
+      "train_loss": 0.7075769114494324,
+      "validation_anchor_f1": 0.6559269055061313,
+      "validation_anchor_precision": 0.6205641492265697,
+      "validation_anchor_recall": 0.6955634880163182,
+      "validation_exact_match": 0.2802013422818792,
+      "validation_mean_jaccard": 0.5832574304889742,
+      "validation_samples": 596.0
+    },
+    {
+      "epoch": 2.0,
+      "train_loss": 0.4821414228280385,
+      "validation_anchor_f1": 0.682856455878817,
+      "validation_anchor_precision": 0.6460418562329391,
+      "validation_anchor_recall": 0.7241203467618562,
+      "validation_exact_match": 0.2953020134228188,
+      "validation_mean_jaccard": 0.6067753275806966,
+      "validation_samples": 596.0
+    },
+    {
+      "epoch": 3.0,
+      "train_loss": 0.31037696480751037,
+      "validation_anchor_f1": 0.6919932676124068,
+      "validation_anchor_precision": 0.6546860782529572,
+      "validation_anchor_recall": 0.7338092809790923,
+      "validation_exact_match": 0.31208053691275167,
+      "validation_mean_jaccard": 0.6186401406200064,
+      "validation_samples": 596.0
+    },
+    {
+      "epoch": 4.0,
+      "train_loss": 0.19749108453591666,
+      "validation_anchor_f1": 0.6871844193315702,
+      "validation_anchor_precision": 0.6501364877161055,
+      "validation_anchor_recall": 0.7287098419173891,
+      "validation_exact_match": 0.31208053691275167,
+      "validation_mean_jaccard": 0.6146093000958772,
+      "validation_samples": 596.0
+    },
+    {
+      "epoch": 5.0,
+      "train_loss": 0.14341271559397378,
+      "validation_anchor_f1": 0.6924741524404905,
+      "validation_anchor_precision": 0.6551410373066424,
+      "validation_anchor_recall": 0.7343192248852626,
+      "validation_exact_match": 0.3187919463087248,
+      "validation_mean_jaccard": 0.6196348673697667,
+      "validation_samples": 596.0
+    },
+    {
+      "epoch": 6.0,
+      "train_loss": 0.10864983489116033,
+      "validation_anchor_f1": 0.6943976917528253,
+      "validation_anchor_precision": 0.6569608735213831,
+      "validation_anchor_recall": 0.7363590005099439,
+      "validation_exact_match": 0.32550335570469796,
+      "validation_mean_jaccard": 0.6231024288910194,
+      "validation_samples": 596.0
+    },
+    {
+      "epoch": 7.0,
+      "train_loss": 0.08677190860112508,
+      "validation_anchor_f1": 0.6891079586439048,
+      "validation_anchor_precision": 0.6519563239308462,
+      "validation_anchor_recall": 0.7307496175420704,
+      "validation_exact_match": 0.3288590604026846,
+      "validation_mean_jaccard": 0.6197946628315755,
+      "validation_samples": 596.0
+    },
+    {
+      "epoch": 8.0,
+      "train_loss": 0.06794460172454517,
+      "validation_anchor_f1": 0.6895888434719885,
+      "validation_anchor_precision": 0.6524112829845314,
+      "validation_anchor_recall": 0.7312595614482407,
+      "validation_exact_match": 0.33053691275167785,
+      "validation_mean_jaccard": 0.6200463406839246,
+      "validation_samples": 596.0
+    }
+  ],
+  "positive_class_weight": 2.395882315562051,
+  "seed": 42,
+  "teacher_name": "deepseek",
+  "test": {
+    "anchor_f1": 0.676206645646374,
+    "anchor_precision": 0.641214351425943,
+    "anchor_recall": 0.7152385838891739,
+    "exact_match": 0.3242784380305603,
+    "mean_jaccard": 0.6088163958282804,
+    "samples": 589.0
+  },
+  "train": {
+    "anchor_f1": 0.9358661239258255,
+    "anchor_precision": 0.8904636217580905,
+    "anchor_recall": 0.9861472961809747,
+    "exact_match": 0.7069473684210527,
+    "mean_jaccard": 0.8840686716791981,
+    "samples": 4750.0
+  },
+  "trainable_parameters": 3998081,
+  "usable_samples": {
+    "test": 589,
+    "train": 4750,
+    "validation": 596
+  },
+  "validation": {
+    "anchor_f1": 0.6943976917528253,
+    "anchor_precision": 0.6569608735213831,
+    "anchor_recall": 0.7363590005099439,
+    "exact_match": 0.32550335570469796,
+    "mean_jaccard": 0.6231024288910194,
+    "samples": 596.0
+  }
+}

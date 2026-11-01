@@ -1,0 +1,71 @@
+{
+  "best_global_step": 900,
+  "best_metric": 0.7545028683083244,
+  "best_model_checkpoint": "/Users/starsfalling/Documents/AT/Distilling-Teacher-Rationales-into-Global-Anchors-for-Sparse-Text-Classification/outputs/long-text-extension/quality/imdb-6k/tfidf/seed-87/checkpoint-900",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 900,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.725,
+      "eval_loss": 0.5724883079528809,
+      "eval_macro_f1": 0.7248708421453405,
+      "eval_runtime": 1.6019,
+      "eval_samples_per_second": 374.55,
+      "eval_steps_per_second": 23.721,
+      "step": 300
+    },
+    {
+      "epoch": 1.6666666666666665,
+      "grad_norm": 6.394535541534424,
+      "learning_rate": 0.00025009999999999995,
+      "loss": 0.5383,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.725,
+      "eval_loss": 0.6724974513053894,
+      "eval_macro_f1": 0.7213143827113577,
+      "eval_runtime": 1.5008,
+      "eval_samples_per_second": 399.791,
+      "eval_steps_per_second": 25.32,
+      "step": 600
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.755,
+      "eval_loss": 1.285834550857544,
+      "eval_macro_f1": 0.7545028683083244,
+      "eval_runtime": 1.4792,
+      "eval_samples_per_second": 405.618,
+      "eval_steps_per_second": 25.689,
+      "step": 900
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 3000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 0.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

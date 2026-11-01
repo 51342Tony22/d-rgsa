@@ -1,0 +1,22 @@
+{
+  "anchor_budget": 4,
+  "architecture": "bigru",
+  "batch_size": 64,
+  "dropout": 0.1,
+  "embedding_size": 128,
+  "epochs": 8,
+  "learning_rate": 0.001,
+  "max_length": 128,
+  "max_positive_weight": 20.0,
+  "output_dir": "outputs/distilled-selectors/trec/deepseek/bigru/seed-42",
+  "patience": 3,
+  "predicted_data_dir": "data/distilled/deepseek/trec",
+  "seed": 42,
+  "selector_hidden_size": 64,
+  "teacher_name": "deepseek",
+  "test_file": "data/trec/test.ready.jsonl",
+  "tokenizer_name": "outputs/distilled-selectors/sst2-6k/deepseek/bigru/seed-42",
+  "train_file": "data/trec/train.ready.jsonl",
+  "validation_file": "data/trec/validation.ready.jsonl",
+  "weight_decay": 0.01
+}
